@@ -1,0 +1,20 @@
+# HireLens path configuration
+#
+# Paths may be absolute, or relative to the project root (the folder that
+# contains this file). Relative paths are recommended so the project works
+# on any machine without editing.
+#
+# NOTE: API keys do NOT belong in this file - it is committed to git.
+# Put Azure OpenAI credentials in a local .env file instead (see .env.example).
+
+[Folder]
+# Where processed resume batches are archived (one timestamped subfolder per run)
+base_path = resume_folder_path
+
+# Where the scored results workbook is written
+resume_score_df = resume_score/resume_result.xlsx
+
+[Tesseract]
+# Optional: only needed if you add OCR for scanned resumes.
+# Example (Windows): C:\Program Files\Tesseract-OCR\tesseract.exe
+pytesseract_path =

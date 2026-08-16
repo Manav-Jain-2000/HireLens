@@ -1,0 +1,29 @@
+# Environment variables / secrets
+.env
+*.pem
+*.key
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local/temporary folders & files
+Temp_Uploads/
+resume_folder_path/
+*.xlsx
+*.csv
+*.json
+.streamlit/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
